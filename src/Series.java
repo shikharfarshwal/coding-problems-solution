@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 /**Print the below series
  *
- *     #
- ##
- ###
- ####
- #####
+ *            #
+              ##
+             ###
+            ####
+           #####
  */
 public class Series {
 

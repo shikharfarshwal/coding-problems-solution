@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -8,9 +9,12 @@ import static java.util.stream.Collectors.toList;
 /**
  * Created by Shikhar on 04-01-2018.
  */
-public class TestTrader {
-
+public class TestTrader{
+//LinkedList<Integer> hgfcvd=new LinkedList<>();
+    String hello="shgfdha";
     public static void main(String[] args) {
+
+
         Trader raoul = new Trader("Raoul", "Cambridge");
         Trader mario = new Trader("Mario", "Milan");
         Trader alan = new Trader("Alan", "Cambridge");
