@@ -20,7 +20,7 @@ public class CalculateSubStrings {
         System.out.print("Number of substrings present are :-"+ (long) setOfSubStrings.size());
     }
 
-    private static Set<String> generateAndPrintSubString(String testSample,int beginIndexOfString,int endIndexOfString) {
+    public static Set<String> generateAndPrintSubString(String testSample,int beginIndexOfString,int endIndexOfString) {
 
         int length = testSample.length();
         if(beginIndexOfString >=length)
