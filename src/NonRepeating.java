@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Map;
+import java.util.TreeMap;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -22,6 +23,9 @@ public class NonRepeating {
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         collectedUsingSplit.entrySet().stream().forEach(System.out::println);
+
+
+        Map<Employee,String> employeeStringMap=new TreeMap<>();
 
     }
 }

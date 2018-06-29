@@ -31,4 +31,15 @@ public class Dish {
     }
 
     private final Type type;
+
+    @Override
+    public String toString() {
+        /*return "Dish{" +
+                "name='" + name + '\'' +
+                ", vegetarian=" + vegetarian +
+                ", calories=" + calories +
+                ", type=" + type +
+                '}';*/
+        return this.getName();
+    }
 }

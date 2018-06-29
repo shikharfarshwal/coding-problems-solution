@@ -1,8 +1,12 @@
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static java.util.stream.Collectors.maxBy;
 import static java.util.stream.Collectors.toList;
 
 /**
@@ -35,6 +39,7 @@ public class DishesExampleWithStream {
     public static void main(String[] args) {
         populateDish();
 
+        Employee emp=new Employee();
         String hello = words.stream()
                 .reduce("This is ", (a, b) -> a.concat(b));
         System.out.println("concat string is " + hello);
@@ -74,6 +79,12 @@ public class DishesExampleWithStream {
 
         //System.out.println(count);
         //System.out.println(threeHighCaloricDishName);
+
+        //Optional<Integer> maxCalorieDish = menu.stream().map(Dish::ge-tCalories).max(Comparator.naturalOrder());
+        Comparator<Dish> dishComparator = Comparator.comparingInt(Dish::getCalories);
+        Optional<Dish> maxCalorieDish = menu.stream().collect(maxBy(dishComparator));
+        //menu.stream().collect(Collectors.joining());
+        System.out.println("maximum calorie dish is="+maxCalorieDish.get());
     }
 
     private static void populateDish() {

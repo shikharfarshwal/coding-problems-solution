@@ -15,9 +15,9 @@ public final int value=11;
 
     public static void main(String[] args) {
         int value=5;
-        Employee emp1=new Employee(1,"shikhar","PES");
-        Employee emp2=new Employee(3,"sahil","AP1");
-        Employee emp3=new Employee(6,"aaaa","AP1");
+        Employee emp1=new Employee(1,"shikh","PES");
+        Employee emp2=new Employee(2,"sAHIL","PES");
+        Employee emp3=new Employee(3,"aaaaa","AP1");
 
         List<Employee> employeeList=new ArrayList<>();
         employeeList.add(emp1);
@@ -54,7 +54,7 @@ public final int value=11;
        employees.add(emp1);
        employees.add(emp2);
        employees.add(emp3);
-       System.out.println("Printing treeset element --------------------------------");
+       System.out.println("Printing custom employee treeset element --------------------------------");
        employees.stream().forEach(System.out::println);
 
         // Collections.sort(employeeList,new EmployeeComparator());
@@ -71,12 +71,35 @@ public final int value=11;
         //int portNo=6565;
        // Runnable o=()->{System.out.println("Tricky"+portNo);};
         portNo=79987;
-        System.out.println("Hash set elements are");
-        Set<Integer> hashSet=new HashSet<>();
-        hashSet.add(1);
-                hashSet.add(2);
-                hashSet.add(3);
-                hashSet.forEach(System.out::println);
+
+
+        Map<Employee,Integer> empMap=new HashMap<>();
+        empMap.put(emp1,1);
+        empMap.put(emp2,2);
+        empMap.put(emp3,3);
+
+        //empMap.put(null,"5");
+
+        //empMap.put(null,"6");
+        //System.out.println(empMap.get(null));
+        System.out.println("HashMap elements are");
+        System.out.println(empMap.get(emp3));
+        Set<Map.Entry<Employee, Integer>> entries = empMap.entrySet();
+        entries.forEach(System.out::println);
+
+        Hashtable<Employee,Integer> hashtable=new Hashtable<>();
+        hashtable.put(emp1,1);
+        hashtable.put(emp2,2);
+        System.out.println("HashTable elements are");
+        hashtable.entrySet().forEach(System.out::println);
+
+        System.out.println("Hashset elelmnets are");
+        Set<Employee> hashSet=new HashSet<>();
+        hashSet.add(emp1);
+        hashSet.add(emp2);
+        // hashSet.add(2);
+        // hashSet.add(3);
+        hashSet.forEach(System.out::println);
 
                 String h= "hello";
                 String g=new String("hello");

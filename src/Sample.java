@@ -20,8 +20,14 @@ public class Sample {
 
 
     public static void main(String... args) {
-        Sample temp=new Sample();
+       // Sample temp=new Sample();
         //args[0]="sdadaf";
-        System.out.println(temp.getValue(6,9,13));
+        int i=1;
+
+        System.out.println( ++i +i++ + i);
+        System.out.println(i);
+
+
+        //System.out.println(temp.getValue(6,9,13));
     }
 }
