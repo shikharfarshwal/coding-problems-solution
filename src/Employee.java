@@ -3,7 +3,7 @@
  */
 public class Employee /*implements Comparable<Employee>*/{
 
-    int id;
+   int id;
     String name;
     String department;
 
@@ -65,24 +65,24 @@ public class Employee /*implements Comparable<Employee>*/{
         return (employee.id-this.id);
     }*/
 
-   /* @Override
+    @Override
     public boolean equals(Object o) {
-        *//*if (this == o) return true;
+        if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
         Employee employee = (Employee) o;
 
         if (id != employee.id) return false;
         if (!name.equals(employee.name)) return false;
-        return department.equals(employee.department);*//*
-        return true;
-    }*/
-
-    @Override
-    public int hashCode() {
-       /* int result = id;
-        result = 31 * result + name.hashCode();
-        result = 31 * result + department.hashCode();*/
-        return 1;
+        return department.equals(employee.department);
+       // return true;
     }
+
+    /*@Override
+    public int hashCode() {
+       *//* int result = id;
+        result = 31 * result + name.hashCode();
+        result = 31 * result + department.hashCode();*//*
+        return 1;
+    }*/
 }
