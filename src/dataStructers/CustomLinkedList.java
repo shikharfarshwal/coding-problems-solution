@@ -1,3 +1,5 @@
+package dataStructers;
+
 /**
  * Created by Shikhar on 03-02-2019.
  */
@@ -108,7 +110,7 @@ public class CustomLinkedList {
 
     @Override
     public String toString() {
-        return "CustomLinkedList{" +
+        return "dataStructers.CustomLinkedList{" +
                 "head=" + head +
                 ", tail=" + tail +
                 ", length=" + length +

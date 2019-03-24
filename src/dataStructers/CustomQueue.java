@@ -1,3 +1,5 @@
+package dataStructers;
+
 /**
  * Created by Shikhar on 14-02-2019.
  */
@@ -14,7 +16,7 @@ public class CustomQueue {
 
     @Override
     public String toString() {
-        return "CustomQueue{" +
+        return "dataStructers.CustomQueue{" +
                 "first=" + first +
                 ", last=" + last +
                 ", length=" + length +

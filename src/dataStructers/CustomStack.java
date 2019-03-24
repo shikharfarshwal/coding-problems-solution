@@ -1,4 +1,4 @@
-/**
+package dataStructers; /**
  * Created by Shikhar on 13-02-2019.
  */
 
@@ -12,7 +12,7 @@ public class CustomStack {
 
     @Override
     public String toString() {
-        return "CustomStack{" +
+        return "dataStructers.CustomStack{" +
                 "length=" + length +
                 ", top=" + top +
                 ", bottom=" + bottom +

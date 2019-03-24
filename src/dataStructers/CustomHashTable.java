@@ -1,3 +1,5 @@
+package dataStructers;
+
 import java.util.Optional;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Optional;
 public class CustomHashTable<K, V> {
     private Buckets[] data;
 
-    CustomHashTable(int size) {
+    public CustomHashTable(int size) {
         this.data = new Buckets[size];
     }
 

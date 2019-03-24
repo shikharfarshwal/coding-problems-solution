@@ -1,3 +1,5 @@
+package dataStructers;
+
 import java.util.Stack;
 
 /**
@@ -10,7 +12,7 @@ public class QueueUsingStack {
 
     @Override
     public String toString() {
-        return "QueueUsingStack{" +
+        return "dataStructers.QueueUsingStack{" +
                 "stack=" + stack +
                 ", tempStack=" + tempStack +
                 '}';

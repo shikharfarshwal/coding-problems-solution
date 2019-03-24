@@ -1,3 +1,5 @@
+package dataStructers;
+
 /**
  * Created by Shikhar on 08-02-2019.
  */
@@ -9,7 +11,7 @@ public class CustomDoublyLinkedList {
 
     @Override
     public String toString() {
-        return "CustomDoublyLinkedList{" +
+        return "dataStructers.CustomDoublyLinkedList{" +
                 "head=" + head +
                 ", tail=" + tail +
                 ", length=" + length +
