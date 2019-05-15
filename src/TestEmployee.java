@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileFilter;
 import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 
 /**
  *  Created by Shikhar on 03-01-2018.
@@ -21,8 +22,11 @@ public final int value=11;
 
         List<Employee> employeeList=new ArrayList<>();
         employeeList.add(emp1);
-        //employeeList.add(emp2);
-        employeeList.add(0,emp3);
+        employeeList.add(emp2);
+        employeeList.add(emp3);
+        Map<Integer, String> listToMap = employeeList.stream()
+                .collect(Collectors.toMap(Employee::getId, Employee::getName));
+        //employeeList.add(0,emp3);
        // employeeList.forEach(e->System.out.println("employee before sorting"+e.getId()+" "+e.getDepartment()+" "+e.getName()));
 
         Set<Integer> linkIntegerSet=new LinkedHashSet<>();

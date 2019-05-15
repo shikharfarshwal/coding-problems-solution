@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 public class LongestPalindromicSubstring {
 
     /**
-     * My 1st Naive Approach O(n) Time and space complexity.
+     * My 1st Naive Approach O(n2) Time and space complexity.
      * Sliding window approach
      *
      * @param s
