@@ -35,7 +35,8 @@ public class TrappingRainWater {
   }
 
 
-  //current Water = min(maxLeft , maxRight) - currentHeight
+  //Shifting pointers technique
+  // current Water = min(maxLeft , maxRight) - currentHeight
   //optimized solution
 // time O(N) / space O(1)
   /*
