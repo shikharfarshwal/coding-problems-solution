@@ -4,9 +4,10 @@ public class ShiftingPointersTechnique {
 
   /*
   LeetCode : Container with most water problem
+  Shifting pointer technique
    */
   public static void main(String[] args) {
-    int[] heights = new int[]{0, 1, 0, 2, 1, 0, 3, 1, 0, 1, 2};
+    int[] heights = new int[]{4,8,1,2,3,9};
     int p1 = 0;
     int p2 = heights.length - 1;
     int maxArea = 0;
@@ -18,13 +19,12 @@ public class ShiftingPointersTechnique {
       int area = height * width;
       maxArea = Math.max(maxArea, area);
 
-      if (heights[p1] >= heights[p2]) {
+      if (heights[p1] <= heights[p2]) {
         p1++;
       } else {
         p2--;
       }
     }
     System.out.println("max Area is :- { " + maxArea + " }");
-    ;
   }
 }
