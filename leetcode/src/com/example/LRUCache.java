@@ -24,14 +24,15 @@ public class LRUCache {
         cache.set(2, 2);
         System.out.println(cache);
         System.out.println("item in cache is " + cache.get(1));
-        cache.set(3, 3);
+        cache.set(1, 1);
         System.out.println("item in cache is " + cache.get(2));
-        cache.set(2, 2);
+//        cache.set(2, 2);
         System.out.println(cache);
 
     }
 
 
+    // if duplicate access
     private void set(int key, int value) {
         if (map.get(key) != null) {
             Node node = map.get(key);
