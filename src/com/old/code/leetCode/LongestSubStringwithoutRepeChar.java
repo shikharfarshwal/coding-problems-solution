@@ -5,6 +5,7 @@ import java.util.*;
 /**
  * Created by Shikhar on 17-03-2019.
  */
+//not a good solution as it is O(N)3
 public class LongestSubStringwithoutRepeChar {
 
     public static void main(String[] args) {

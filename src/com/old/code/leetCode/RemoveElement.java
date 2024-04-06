@@ -3,6 +3,9 @@ package com.old.code.leetCode;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*
+This code is also not working prioperly for example [1,5,2,3]
+ */
 public class RemoveElement {
 
     public static void main(String[] args) {
@@ -23,7 +26,7 @@ public class RemoveElement {
 
     public static int removeElement(int[] nums, int val) {
         int i = 0;
-        for (int j = 0; j < nums.length; j++) {
+        for (int j = 0; j <= nums.length; j++) {
             if (nums[j] != val) {
                 nums[i] = nums[j];
                 i++;

@@ -6,6 +6,7 @@ import java.util.Scanner;
  * Maximum sum of a subarray in o(n)2
  * [-2,-5,6,-2,-3,1,5,-6]
  */
+// this is giving wrong output for [1,5,2,3]
 public class MaxSumSubArrayNSquareTimeComplexity {
 
     public static void main(String[] args) {
