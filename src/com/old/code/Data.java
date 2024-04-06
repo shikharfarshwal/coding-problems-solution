@@ -1,12 +1,9 @@
 package com.old.code;
 
-import sun.plugin.javascript.navig.Array;
-
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.Function;
 
 /**
  * Created by Shikhar on 20-06-2018.
