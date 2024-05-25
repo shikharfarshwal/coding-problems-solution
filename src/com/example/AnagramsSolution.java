@@ -1,12 +1,12 @@
 package com.example;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+
+import static java.util.Arrays.sort;
 
 public class AnagramsSolution {
 
@@ -30,7 +30,7 @@ public class AnagramsSolution {
     Map<String, List<String>> anagramMap = new HashMap<>();
     for (final String word : words) {
       final char[] chars = word.toCharArray();
-      Arrays.sort(chars);
+      sort(chars);
       String sortedWord = new String(chars);
       final List<String> anagramList = anagramMap.getOrDefault(sortedWord, new ArrayList<>());
       anagramList.add(word);

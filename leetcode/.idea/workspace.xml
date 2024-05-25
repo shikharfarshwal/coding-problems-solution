@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd52edfe-6cc2-48d1-9039-e3cee266b9b5" name="Changes" comment="arcesium MAY 2024 interview question">
+      <change beforePath="$PROJECT_DIR$/../src/com/example/new/Sachin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/example/new/Segment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/domain/Dish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/domain/IndianMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/domain/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/domain/MenuCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/repo/InventoryRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/repo/InventroyRepoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/repo/MenuRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/repo/MenuRepoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/repo/entity/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/solution/service/ApiService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "shikharfarshwal"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b22008da-1225-4dd1-8b89-7ae3b2280a00" />
+        <option name="url" value="https://github.com/shikharfarshwal/coding-problems-solution.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2dlJZxGYBO9eUPxAOE51CcejMDf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnagramsSolution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearchTree.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shikhar/repo/coding-problems-solution/leetcode/src/com/example/interview&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/example/interview" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AnagramsSolution">
+    <configuration name="AnagramsSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.AnagramsSolution" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.BinarySearchTree" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnagramsSolution" />
+        <item itemvalue="Application.BinarySearchTree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-8ce719b4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd52edfe-6cc2-48d1-9039-e3cee266b9b5" name="Changes" comment="" />
+      <created>1710576790969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710576790969</updated>
+    </task>
+    <task id="LOCAL-00001" summary="arcesium MAY 2024 interview question">
+      <option name="closed" value="true" />
+      <created>1716624298493</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716624298493</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="arcesium MAY 2024 interview question" />
+    <option name="LAST_COMMIT_MESSAGE" value="arcesium MAY 2024 interview question" />
+  </component>
+</project>
