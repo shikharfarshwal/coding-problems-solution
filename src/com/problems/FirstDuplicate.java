@@ -58,7 +58,8 @@ public class FirstDuplicate {
 
     private int findDuplicate(final int[] array) {
         for (int j = 0; j < array.length; j++) {
-                if (array[Math.abs(array[j]) - 1] < 0) { // i will return back to the number j as an index and see if its value is already negative and if it is then we found our first dupicate value
+                if (array[Math.abs(array[j]) - 1] < 0) { // i will return back to the number j as an index
+                    // and see if its value is already negative and if it is then we found our first dupicate value
                     return Math.abs(array[j]);
                 } else {
                     array[Math.abs(array[j]) - 1] = -array[Math.abs(array[j]) - 1];
