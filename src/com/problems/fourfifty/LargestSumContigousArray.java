@@ -32,6 +32,4 @@ public class LargestSumContigousArray {
         }
         return max_global;
     }
-
-
 }
