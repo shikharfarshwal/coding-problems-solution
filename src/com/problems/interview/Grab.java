@@ -9,11 +9,12 @@ public class Grab {
 
     public static void main(String[] args) {
         System.out.println(findMaxSumSubArray(new int[]{5, 4, -1, 7, 8}));
-        System.out.println(maxSubArraySumWithK(new int[]{5, 4, -1, 7, 8} , 3));
+        System.out.println(maxSubArraySumWithK(new int[]{5, 4, -1, 7, 8}, 3));
+        System.out.println(maxSubArraySumWithKOptimized(new int[]{5, 4, -1, 7, 8}, 3));
     }
 
 
-//kadane algorithm
+    //kadane algorithm
     private static int findMaxSumSubArray(final int[] array) {
         int max_current = array[0], max_global = array[0];
         for (int i = 1; i <= array.length - 1; i++) {
@@ -41,5 +42,22 @@ public class Grab {
             }
         }
         return max_sum;
+    }
+
+
+    //      Had 3 test cases one test case was unable to solve {5,4,-1,7,8} , k=3
+    private static int maxSubArraySumWithKOptimized(final int[] array, int k) {
+        int max_global = 0;
+        for (int i = 0; i <= array.length - 1; i++) {
+            int max_current = array[i];
+            int j = i + 1;
+            if (j < array.length) {
+                max_current = Math.max(max_global, array[j] + max_current);
+                if (max_current > max_global && max_current <= k) {
+                    max_global = max_current;
+                }
+            }
+        }
+        return max_global;
     }
 }
