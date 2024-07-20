@@ -47,6 +47,7 @@ public class CustomStack {
         System.out.println("-----pop------");
         System.out.println("popped {} - " + customStack.pop());
         System.out.println("popped {} - " + customStack.pop());
+        System.out.println("popped {} - " + customStack.pop());
         System.out.println("-----print stack------");
         printStack(customStack);
         System.out.println("-----push------");
