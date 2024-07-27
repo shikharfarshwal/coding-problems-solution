@@ -1,4 +1,4 @@
-package com.problems.fourfifty;
+package com.problems.striver;
 
 public class MinStackUsingPair {
 

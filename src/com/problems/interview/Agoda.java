@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-// need to find 3 elemets in an array that sum up to 0 (a+b+c)=0
+// need to find 3 elements in an array that sum up to 0 (a+b+c)=0
 // duplicate elements can also be there
 // array size can be zero
 // min 3 elements shall be there
@@ -46,5 +46,4 @@ public class Agoda {
         return false;
     }
 
-}
 }
