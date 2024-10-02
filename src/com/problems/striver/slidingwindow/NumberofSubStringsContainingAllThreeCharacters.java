@@ -1,4 +1,4 @@
-package com.problems.striver;
+package com.problems.striver.slidingwindow;
 
 public class NumberofSubStringsContainingAllThreeCharacters {
 

@@ -1,4 +1,4 @@
-package com.problems.striver;
+package com.problems.striver.slidingwindow;
 //https://leetcode.com/problems/binary-subarrays-with-sum/description/
 public class BindarySubarraysWithSum {
 

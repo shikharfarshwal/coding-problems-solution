@@ -1,4 +1,4 @@
-package com.problems.striver;
+package com.problems.striver.slidingwindow;
 
 public class MinStackUsingPair {
 
@@ -27,6 +27,9 @@ public class MinStackUsingPair {
         Node(PairStack ps) {
             this.pairStack = ps;
         }
+
+
+
     }
 
     public void push(int val) {
